@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>Hbayter SBH Group | Import, Export and Trading in Lebanon</title>
-<meta name="description" content="Hbayter SBH Group, Zgharta, Lebanon: import and export for other companies, own-account trading and cargo delivery.">
+<title>Hbayter SBH Group | Your Trade Partner. Beyond Borders.</title>
+<meta name="description" content="Hbayter SBH Group, Zgharta, Lebanon: import and export facilitation, international trade coordination, general trading and logistics.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap">
 <style>
@@ -52,7 +52,7 @@ h1,h2,h3{font-family:var(--display);font-weight:600;line-height:1.08;margin:0;te
 .navbar a,.navbar button.nv{font:500 .95rem var(--body);color:var(--hero-muted);text-decoration:none;background:none;border:0;cursor:pointer;padding:16px 22px;display:block}
 .navbar a:hover,.navbar button.nv:hover,.has-menu.open>button.nv,.has-menu:focus-within>button.nv{color:#fff}
 .has-menu{position:relative}
-.menu{display:none;position:absolute;left:50%;transform:translateX(-50%);top:100%;min-width:240px;background:#fff;border-top:3px solid var(--gold);border-radius:0 0 6px 6px;box-shadow:0 14px 30px rgba(5,10,30,.35);list-style:none;margin:0;padding:6px 0;z-index:50}
+.menu{display:none;position:absolute;left:50%;transform:translateX(-50%);top:100%;min-width:290px;background:#fff;border-top:3px solid var(--gold);border-radius:0 0 6px 6px;box-shadow:0 14px 30px rgba(5,10,30,.35);list-style:none;margin:0;padding:6px 0;z-index:50}
 .has-menu:hover>.menu,.has-menu:focus-within>.menu,.has-menu.open>.menu{display:block}
 .menu a{color:#0F1E4A;padding:12px 20px;font-weight:600}
 .menu a:hover{background:#F1EBDD;color:#0F1E4A}
@@ -70,6 +70,7 @@ h1,h2,h3{font-family:var(--display);font-weight:600;line-height:1.08;margin:0;te
 .btn.solid{background:var(--gold);color:#0A1433}
 .btn.solid:hover{background:var(--gold-soft)}
 .hero .btn{margin-top:30px}
+.hero p.sub{margin-top:14px;font-size:1rem}
 .globe{width:100%;max-width:420px;justify-self:center;min-width:0}
 .globe svg{width:100%;height:auto;display:block;overflow:visible}
 .arc{fill:none;stroke:var(--gold-soft);stroke-width:1.6;stroke-dasharray:5 7;animation:flow 2.4s linear infinite}
@@ -79,7 +80,7 @@ h1,h2,h3{font-family:var(--display);font-weight:600;line-height:1.08;margin:0;te
 
 /* sections */
 section{padding-block:80px 0;scroll-margin-top:60px}
-.sec-head{max-width:640px;margin-bottom:44px}
+.sec-head{max-width:720px;margin-bottom:44px}
 .sec-head h2{font-size:clamp(2rem,4.4vw,3rem);margin-top:8px}
 .sec-head p{margin:14px 0 0;color:var(--muted)}
 
@@ -93,6 +94,10 @@ section{padding-block:80px 0;scroll-margin-top:60px}
 .svc h3{font-size:2.2rem;margin:8px 0 14px}
 .svc p{margin:0 0 18px;color:var(--muted);max-width:52ch}
 .svc ul{margin:0;padding:0;list-style:none;display:flex;gap:8px;flex-wrap:wrap}
+.svc .inc{font-weight:600;color:var(--fg);margin:6px 0 10px}
+.svc ul.checks{display:grid;grid-template-columns:1fr 1fr;gap:8px 22px}
+.svc ul.checks li{border:0;background:none;padding:0 0 0 20px;border-radius:0;position:relative;font-size:.92rem}
+.svc ul.checks li::before{content:"";position:absolute;left:0;top:.5em;width:8px;height:8px;background:var(--gold)}
 .svc li{border:1px solid var(--line);background:var(--surface);padding:4px 14px;border-radius:999px;font-size:.85rem}
 
 /* scene animation */
@@ -122,7 +127,7 @@ section{padding-block:80px 0;scroll-margin-top:60px}
 @keyframes travel{0%{left:12.5%}100%{left:calc(87.5% - 12px)}}
 .step{text-align:center;position:relative;z-index:1;min-width:0}
 .step .n{width:46px;height:46px;border-radius:50%;background:var(--surface);border:2px solid var(--gold);display:grid;place-items:center;margin:0 auto 16px;font:600 1.25rem var(--display);color:var(--fg)}
-.step h3{font-size:1.45rem;margin-bottom:8px}
+.step h3{font-size:1.4rem;margin-bottom:8px}
 .step p{margin:0;color:var(--muted);font-size:.95rem}
 
 /* why */
@@ -168,6 +173,7 @@ section{padding-block:80px 0;scroll-margin-top:60px}
   .copy{grid-column:2;justify-self:start}
   .svc h3{font-size:1.9rem}
 }
+@media (max-width:520px){.svc ul.checks{grid-template-columns:1fr}}
 @media (prefers-reduced-motion:no-preference){.btn{transition:background .2s}}
 @media (prefers-reduced-motion:reduce){.arc,.wave1,.wave2,.shipdrift,.shipbob,.trolley,.city,.lane,.truckbob,.spin,.speed,.steps::after{animation:none}}
 </style>
@@ -179,12 +185,12 @@ section{padding-block:80px 0;scroll-margin-top:60px}
     <li class="has-menu" id="svcmenu">
       <button class="nv" type="button" aria-haspopup="true" aria-expanded="false">Services &#9662;</button>
       <ul class="menu">
-        <li><a href="#import-export">Import &amp; Export</a></li>
-        <li><a href="#general-trading">General Trading</a></li>
-        <li><a href="#cargo-delivery">Cargo Delivery</a></li>
+        <li><a href="#import-export">Import &amp; Export Services</a></li>
+        <li><a href="#general-trading">General Trading &amp; Wholesale</a></li>
+        <li><a href="#cargo-delivery">Logistics &amp; Cargo Delivery</a></li>
       </ul>
     </li>
-    <li><a href="#process">How it works</a></li>
+    <li><a href="#process">How we work</a></li>
     <li><a href="#why">Why us</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
@@ -194,10 +200,11 @@ section{padding-block:80px 0;scroll-margin-top:60px}
   <div class="wrap hero-body">
     <div>
       <p class="eyebrow" style="color:var(--gold-soft)">Zgharta, Lebanon</p>
-      <h1 style="margin-top:12px">Cross-border trade, <em>handled for you.</em></h1>
+      <h1 style="margin-top:12px">Your Trade Partner. <em>Beyond Borders.</em></h1>
       <div class="rule"></div>
-      <p class="lead">We import and export on behalf of companies that have no set-up of their own, and we trade goods for ourselves.</p>
-      <a class="btn solid" href="#contact">Get in touch</a>
+      <p class="lead">We help businesses access international markets without managing the complexity of cross-border trade themselves.</p>
+      <p class="lead sub">Hbayter SBH Group provides import and export facilitation, international trade coordination and general trading services, connecting customers with overseas suppliers and managing the commercial and logistical arrangements required to move goods across borders.</p>
+      <a class="btn solid" href="#contact">Get in Touch</a>
     </div>
     <div class="globe" aria-hidden="true">
       <svg viewBox="0 0 400 400">
@@ -225,8 +232,8 @@ section{padding-block:80px 0;scroll-margin-top:60px}
 <main class="wrap">
   <section id="services">
     <div class="sec-head">
-      <span class="eyebrow">Services</span>
-      <h2>What we do</h2>
+      <span class="eyebrow">Our Services</span>
+      <h2>What We Do</h2>
     </div>
 
     <article class="svc" id="import-export">
@@ -247,10 +254,12 @@ section{padding-block:80px 0;scroll-margin-top:60px}
         </svg>
       </div>
       <div>
-        <span class="tag">For other companies</span>
-        <h3>Import &amp; Export</h3>
-        <p>Businesses without an import or export registration of their own can trade through ours. We bring goods into Lebanon and send products abroad in our company name, and we manage the paperwork from start to finish.</p>
-        <ul><li>Import</li><li>Export</li><li>Documentation</li></ul>
+        <h3>01. Import &amp; Export Services</h3>
+        <p>We facilitate international trade transactions for businesses seeking to import goods into Lebanon or export products to international markets.</p>
+        <p>For businesses without their own import/export infrastructure, we offer coordinated trading arrangements through our company, subject to applicable legal, customs and commercial requirements.</p>
+        <p>We manage coordination between customers, overseas suppliers, shipping agents and relevant service providers to simplify the entire process.</p>
+        <p class="inc">Our services include:</p>
+        <ul class="checks"><li>Import Transaction Coordination</li><li>Export Transaction Coordination</li><li>Supplier &amp; Customer Coordination</li><li>Trade Documentation</li><li>Shipping Arrangements</li><li>Import/Export Facilitation</li></ul>
       </div>
     </article>
 
@@ -272,10 +281,11 @@ section{padding-block:80px 0;scroll-margin-top:60px}
         </svg>
       </div>
       <div>
-        <span class="tag">For ourselves</span>
-        <h3>General Trading</h3>
-        <p>We also trade on our own account. We source products from suppliers abroad, ship them to Lebanon and sell them to customers.</p>
-        <ul><li>Sourcing</li><li>Shipping</li><li>Sales</li></ul>
+        <h3>02. General Trading &amp; Wholesale</h3>
+        <p>In addition to facilitating transactions for customers, Hbayter SBH Group conducts general trading activities on its own account.</p>
+        <p>We source products from international manufacturers and suppliers, arrange procurement and transportation, and trade goods for resale in the Lebanese and international markets.</p>
+        <p class="inc">Our services include:</p>
+        <ul class="checks"><li>International Product Sourcing</li><li>Supplier Identification</li><li>Product Procurement</li><li>Wholesale Trading</li><li>Import &amp; Resale</li><li>Distribution</li></ul>
       </div>
     </article>
 
@@ -301,24 +311,25 @@ section{padding-block:80px 0;scroll-margin-top:60px}
         </svg>
       </div>
       <div>
-        <span class="tag">After shipping</span>
-        <h3>Cargo Delivery</h3>
-        <p>Once a shipment has arrived, we collect the cargo and deliver it to your address.</p>
-        <ul><li>Collection</li><li>Door delivery</li></ul>
+        <h3>03. Logistics &amp; Cargo Delivery</h3>
+        <p>We coordinate cargo transportation, collection and delivery to support our international trading activities and customer requirements.</p>
+        <p>From shipment coordination to final delivery, we aim to provide practical and reliable logistics solutions.</p>
+        <p class="inc">Our services include:</p>
+        <ul class="checks"><li>Cargo Collection</li><li>Shipment Coordination</li><li>Local Transportation</li><li>Door-to-Door Delivery</li></ul>
       </div>
     </article>
   </section>
 
   <section id="process">
     <div class="sec-head">
-      <span class="eyebrow">How it works</span>
-      <h2>Four steps</h2>
+      <span class="eyebrow">How We Work</span>
+      <h2>Four Steps to Getting Your Goods Delivered</h2>
     </div>
     <div class="steps">
-      <div class="step"><div class="n">1</div><h3>Send your request</h3><p>Tell us the product, the quantity and the destination.</p></div>
-      <div class="step"><div class="n">2</div><h3>Agree the details</h3><p>We confirm the route, the timing and the price with you.</p></div>
-      <div class="step"><div class="n">3</div><h3>Goods ship</h3><p>We arrange the shipment and prepare the documents.</p></div>
-      <div class="step"><div class="n">4</div><h3>Cargo arrives</h3><p>We deliver it to your address.</p></div>
+      <div class="step"><div class="n">01</div><h3>Share Your Requirements</h3><p>Tell us what you need to import or export, including product details, quantities, supplier information and destination.</p></div>
+      <div class="step"><div class="n">02</div><h3>Receive Your Proposal</h3><p>We review your requirements and provide a suitable trading arrangement, including applicable costs, responsibilities and estimated timelines.</p></div>
+      <div class="step"><div class="n">03</div><h3>We Handle the Coordination</h3><p>We coordinate the commercial arrangements, overseas suppliers, shipping, documentation and relevant service providers.</p></div>
+      <div class="step"><div class="n">04</div><h3>Cargo Arrival &amp; Delivery</h3><p>We follow up on the shipment until arrival and coordinate cargo collection and final delivery according to the agreed terms.</p></div>
     </div>
   </section>
 
@@ -326,13 +337,13 @@ section{padding-block:80px 0;scroll-margin-top:60px}
     <div class="why">
       <div>
         <span class="eyebrow">Why Hbayter SBH Group</span>
-        <h2>A trading company you can reach directly</h2>
-        <p class="intro">Hbayter SBH Group is managed by Sarkis B. Hbayter, who handles each client personally.</p>
+        <h2>Your Direct Partner in International Trade</h2>
+        <p class="intro">Hbayter SBH Group is managed by Sarkis B. Hbayter, providing clients with direct communication, personal attention and practical solutions for their international trade requirements.</p>
       </div>
       <div class="points">
-        <div class="point"><h3>Direct access</h3><p>You speak to the person who runs the company, not to a switchboard.</p></div>
-        <div class="point"><h3>Terms up front</h3><p>Prices, routes and timelines are settled before the goods move.</p></div>
-        <div class="point"><h3>Flexible scope</h3><p>Use one service or all three, depending on the job.</p></div>
+        <div class="point"><h3>Direct Management</h3><p>Communicate directly with the person managing your business transactions, ensuring clear communication and personal attention.</p></div>
+        <div class="point"><h3>Transparent Commercial Terms</h3><p>Clear quotations, agreed responsibilities and defined costs before transactions proceed.</p></div>
+        <div class="point"><h3>Flexible Business Solutions</h3><p>Arrangements that fit your business, from a single shipment to ongoing trade.</p></div>
       </div>
     </div>
   </section>
